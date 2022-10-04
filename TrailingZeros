@@ -1,0 +1,11 @@
+//taken hardcoded input
+ int input=20, i = 5, trailingzeros = 0, temp;
+ 
+  do
+    {
+      temp = input / i;
+      trailingzeros += temp;    
+      i *= 5;    
+    }
+  while (temp != 0);
+ 
